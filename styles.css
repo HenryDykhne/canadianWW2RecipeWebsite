@@ -1,0 +1,202 @@
+body {
+    background-color: #A00000;
+    font-family: Arial, Verdana, sans-serif;
+    color: #484848;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    border-top:1px solid #484848;
+    margin-top: 0;
+}
+
+.ingredientHr {
+    border-top:1px solid #E4E4E4;
+    margin-top: 0;
+}
+
+.flavour {
+    text-align: center;
+    width:100%
+}
+
+.mainPanel {
+    width: 55%;
+    margin: auto;
+    background-color: #E4E4E4;
+    padding:10px;
+    padding-left:30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    margin-bottom:30px;
+}
+
+.internalPanel {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /*Source: https://stackoverflow.com/questions/47601564/equal-width-columns-in-css-grid*/
+}
+
+a, a:visited{
+    color: #484848;
+    text-decoration: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #E4E4E4;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 12px 24px 0 rgba(0,0,0,0.2);
+}
+
+.imgHolder {
+    overflow: hidden;
+    padding-top: 50%;
+    position: relative;
+}
+
+.text {
+    padding: 2px 16px;
+    width: 100%;
+}
+
+.whiteText {
+    color: #E4E4E4;
+}
+
+img {
+    padding:0;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #484848;
+}
+
+.recipe {
+    width: 55%;
+    min-width: 500px;
+    margin: auto;
+    background-color: #E4E4E4;
+    padding:10px;
+    padding-left:0;
+    padding-right: 0;
+    border-radius: 10px;
+    margin-bottom:30px;
+}
+
+.internalRecipePanel {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.recipeTitle{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ingredientsList {
+    background-color: #484848;
+    margin: 0;
+    height: 100%;
+}
+
+.rec {
+    margin: -1px;
+}
+
+.ingredient {
+    color: #E4E4E4;
+}
+  
+.navItem {
+    float: left;
+    font-weight: bold;
+}
+
+ol, ul {
+    font-size:16pt;
+}
+
+p {
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size:16pt;
+}
+
+.lightText {
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size:16pt;
+    color: #E4E4E4;
+}
+  
+.navItem a, .navItem a:visited .buttonType a, .buttonType:visited{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #E4E4E4;
+}
+  
+.navItem a:hover, .buttonType:hover{
+    background-color: #363636;
+}
+
+.here, .here:hover{
+    background-color: rgb(190, 153, 32);
+}
+
+.buttonType {
+    border-radius: 10px;
+    margin: 10px;
+    padding:10px;
+    overflow: hidden;
+    background-color: #484848;
+    text-align: right;
+    float:right;
+    color: #E4E4E4;
+}
+
+.ex {
+    display: inline-block;
+}
+    
+.recipeHead {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+textarea {
+    width: 70%;
+    padding: 12px;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.name {
+    width:300px;
+}
